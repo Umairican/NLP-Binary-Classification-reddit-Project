@@ -9,8 +9,14 @@
 
 Can my model tell if these are wonderful life pro tips, or shitty life pro tips?
 
+The baseline for comparison with my models is simple, since this is a binary classification project: can my model outperform the age-old decision metric of flipping a coin?
+
 
 ### Executive Summary
+
+This project explores using different Natural Language Processing models to attempt a binary classification of the age-old question, "which subreddit is this coming from?"
+
+For those of you who don't know, reddit(include link here)
 
 Some words about this project go here.
 
