@@ -9,7 +9,7 @@
 
 Can my model tell if these are wonderful life pro tips, or shitty life pro tips?
 
-The baseline for comparison with my models is simple, since this is a binary classification project: can my model outperform the age-old decision metric of flipping a coin?
+The baseline for comparison with my models is simple, since this is a binary classification project: can my model outperform the age-old decision metric of flipping a coin (can my model beat 50/50)?
 
 
 ### Executive Summary
@@ -42,7 +42,9 @@ My conclusion here is that I am a bit burntout right this second and I could rea
 
 ---
 
+### Additional Information
 
+Don Draper Many Faces https://screenrant.com/mad-men-hilarious-memes-true-fans/
 
 
 
