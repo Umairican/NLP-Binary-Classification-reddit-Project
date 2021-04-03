@@ -3,6 +3,7 @@
 * [Problem Statement](#user-content-problem-statement)
 * [Executive Summary](#user-content-executive-summary)
 * [Conclusions and Recommendations](#user-content-conclusions-and-recommendations)
+* [Additional Information](#user-content-additional-information)
 
 
 ### Problem Statement
@@ -20,6 +21,8 @@ For those of you who don't know, reddit(include link here)
 
 Some words about this project go here.
 
+My first run-through of this project centered on the following subreddits:
+
 LifeProTips:
 
 Some yada about the subreddit
@@ -31,12 +34,36 @@ Some yada about the subreddit
 
 
 
+My second run-through of this project centered on the following subreddits:
+
+AskMen:
+
+
+AskMenOver30:
+
+
+
+My third run-through of this project centered on the following subreddits:
+
+/r/MadMen:
+
+A subreddit dedicated to one of TV's greatest shows. Don Draper, oozing with his effortless charm and complete disregard for the feelings of partners, 
+
+/r/TheSopranos:
+
+A subreddit dedicated to arguably the greatest TV series of all time.
+
 
 ---
 
 ### Conclusion and Recommendations
 
 My conclusion here is that I am a bit burntout right this second and I could really do with some exercise and shit so I think I am going to do that instead for a little bit, and then get back to this later.
+
+I chose similar subreddits because I wanted to explore the various themes of these subreddits and whether or not NLP models could pick up on more subtle differences between two options in binary classification.
+
+
+/r/LifeProTips and /r/ShittyLifeProTips -> testing for sarcasm detection in natural language processing.
 
 
 
@@ -46,5 +73,5 @@ My conclusion here is that I am a bit burntout right this second and I could rea
 
 Don Draper Many Faces https://screenrant.com/mad-men-hilarious-memes-true-fans/
 
-
+Tony Soprano Home Wear https://dankanator.com/62146/best-tony-soprano-memes-from-the-sopranos/
 
