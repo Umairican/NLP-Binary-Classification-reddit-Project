@@ -1,3 +1,7 @@
+# Binary Classification and Natural Language Processing with reddit
+
+---
+
 ### Table of Contents
 
 * [Problem Statement](#user-content-problem-statement)
@@ -8,9 +12,11 @@
 
 ### Problem Statement
 
-Can my model tell if these are wonderful life pro tips, or shitty life pro tips?
+Can I create an effective model to tell from which subreddit it is?
 
-The baseline for comparison with my models is simple, since this is a binary classification project: can my model outperform the age-old decision metric of flipping a coin (can my model beat 50/50)?
+The baseline for comparison with my models is simple; since this is a binary classification project: can my model outperform the age-old decision metric of flipping a coin (can my model beat 50/50)?
+
+
 
 
 ### Executive Summary
@@ -33,6 +39,9 @@ ShittyLifeProTips:
 Some yada about the subreddit
 
 
+/r/LifeProTips and /r/ShittyLifeProTips -> testing for sarcasm detection in natural language processing.
+
+
 
 My second run-through of this project centered on the following subreddits:
 
@@ -40,6 +49,9 @@ AskMen:
 
 
 AskMenOver30:
+
+
+/r/AskMen and /r/AskMenOver30 -> exploring the difference in language with age, and whether my models could detect this.
 
 
 
@@ -54,16 +66,19 @@ A subreddit dedicated to one of TV's greatest shows. Don Draper, oozing with his
 A subreddit dedicated to arguably the greatest TV series of all time.
 
 
+
+
 ---
 
 ### Conclusion and Recommendations
 
-My conclusion here is that I am a bit burntout right this second and I could really do with some exercise and shit so I think I am going to do that instead for a little bit, and then get back to this later.
+The more robust of my analyses, classifying The Sopranos and Mad Men, showed that using CountVectorizer and Logistic Regression could reliably predict the correct subreddit for 90% of cases, with false positives and false negatives being roughly equal.
 
-I chose similar subreddits because I wanted to explore the various themes of these subreddits and whether or not NLP models could pick up on more subtle differences between two options in binary classification.
+The use of additional stop words was important. For each iteration where I added a few more stop words to my list, the train and test scores would increase. With a train score of 0.98 and a test score of 0.90, we can see that my pipeline of CountVectorizer and Logistic Regression (although overfit) is quite good at predicting which subreddit on text alone.
+
+Given more time, I would explore either including more stop words, or classifying using "definers": words that definitely state that it is one subreddit over another. I believe this would increase the overall accuracy of the scores of my top model.
 
 
-/r/LifeProTips and /r/ShittyLifeProTips -> testing for sarcasm detection in natural language processing.
 
 
 
