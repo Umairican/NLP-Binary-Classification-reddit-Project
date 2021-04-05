@@ -29,7 +29,7 @@ For those of you who don't know, reddit(include link here) is a network of commu
 For all analysis, only the features for the post title (called 'title') and post body (called 'selftext') were used in trying to determine the target (subreddit).
 
 
-**My first run-through of this project centered on the following subreddits:
+**My first run-through of this project centered on the following subreddits:**
 
 LifeProTips: a subreddit about different tips to improve your life.
 
@@ -43,7 +43,7 @@ Early on in my data collection I encountered plenty of issues with my choice of 
 I found that my models were able to score 86-88% accuracy, despite only having the title to work with. I decided to come back around to data cleaning and found that the majority of post titles include the abbreviation for the subreddit in the title (LPT: for LifeProTips and SLPT: for ShittyLifeProTips). It seemed to be a bit too easy, so I decided to use my calling function to scrape some more subreddits until I found a satisfactory pair.
 
 
-**My second run-through of this project centered on the following subreddits:
+**My second run-through of this project centered on the following subreddits:**
 
 AskMen: a subreddit where users can ask men just about anything.
 
@@ -57,7 +57,7 @@ Unfortunately, I ran into similar issues with my data, and didn't have much to w
 I created some basic models, but quickly decided to move on to other subreddits that I had pulled posts for.
 
 
-**My third run-through of this project centered on the following subreddits:
+**My third run-through of this project centered on the following subreddits:**
 
 /r/MadMen: A subreddit dedicated to one of TV's greatest shows. It is about advertising in the 1960s and the existential dread that comes from not living the life you want.
 
@@ -88,7 +88,7 @@ Given more time, I would explore either including more stop words, or classifyin
 
 ### Additional Information
 
-*Presentation Meme Source: [Don Draper Many Faces](https://screenrant.com/mad-men-hilarious-memes-true-fans/)
+*Presentation Meme Source:* [Don Draper Many Faces](https://screenrant.com/mad-men-hilarious-memes-true-fans/)
 
-*Presentation Meme Source: [Tony Soprano Home Wear](https://dankanator.com/62146/best-tony-soprano-memes-from-the-sopranos/)
+*Presentation Meme Source:* [Tony Soprano Home Wear](https://dankanator.com/62146/best-tony-soprano-memes-from-the-sopranos/)
 
